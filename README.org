@@ -1,0 +1,50 @@
+* Tervetuloa komentoriviharjoitukseen!
+Tässä harjoituksessa opetellaan muutama perus komento, joita
+käyttämällä pääsee jo alkuun komentorivin käytössä. 
+
+Opitaan: 
+- ~pwd~ (print working directory), jolla voi tarkastaa nykyisen työskentelykansion sijainnin. 
+- ~ls~ (list), joka antaa listan kansiossa olevista tiedostoista ja kansioista.
+- ~cd~ (change directory), jonka avulla voit siirtyä kansiosta toiseen.
+- ~mkdir~ (make directory), jolla voit luoda uuden kansion.
+
+** Tarkasta työskentelykansio
+Seuraava komento kertoo mikä on työskentelykansiosi. Minulla se on
+omalla koneellani ~C:\Users\O-P~.
+#+begin_src
+pwd
+#+end_src
+
+** Listaa kansiossa olevat tiedostot
+Seuraavaksi voit katsoa ~ls~ komennolla, mitä tiedostoja ja kansioita
+työskentelykansiossasi on.
+#+begin_src
+ls
+#+end_src
+
+** Siirry "Tiedostot" -kansioon (Documents)
+Voit siirtyä käyttämällä ~cd~ komentoa. Jos esimerkiksi olisin ~Users~
+-kansiossa, voisin siirtyä ~O-P~ -kansioon komennolla ~cd O-P~.
+
+#+begin_src
+cd tähän-tiedoston-nimi
+#+end_src
+
+Jos haluat siirtyä yhden kansion takaisinpäin, voit laittaa kaksi
+pistettä komennon perään, välilyönnillä erotettuna.
+#+begin_src
+cd ..
+#+end_src
+
+** Luo kansio "Tiedostot" -kansion sisälle
+Voit nyt vielä tarkistaa, että olethan varmasti ~Tiedostot~ -kansiossa
+(englanniksi se on Windowsissa Documents).
+
+Sitten voit luoda kansion antamalla seuraavan komennon:
+#+begin_src
+mkdir hacked
+#+end_src
+
+* Tehtävä suoritettu!
+Nyt sinulla pitäisi olla omien kansioidesi joukossa "hacked" -niminen
+kansio. Hienoa!
