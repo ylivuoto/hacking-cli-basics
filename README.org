@@ -9,9 +9,8 @@ Opitaan:
 - ~mkdir~ (make directory), jolla voit luoda uuden kansion.
 
 Jotta pääset alkuun, sinun tulee siirtyä komentoriville. Avaa
-komentorivi Windowsin valikosta etsimällä sovellus, nimeltä ~Windows
-PowerShell~. Voit kirjoittaa tuon Windowsin hakuun ja avata
-sovelluksen sieltä.
+komentorivi Windowsin valikosta etsimällä sovellus, nimeltä ~WindowsPowerShell~. 
+Voit kirjoittaa tuon Windowsin hakuun ja avata sovelluksen sieltä.
 
 ** Tarkasta työskentelykansio
 Seuraava komento kertoo mikä on työskentelykansiosi. Minulla se on
