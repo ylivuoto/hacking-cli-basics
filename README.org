@@ -33,7 +33,7 @@ Voit siirtyä käyttämällä ~cd~ komentoa. Jos esimerkiksi olisin ~Users~
 
 Huomaa, että siirtyessäsi kansioon, jonka nimi sisältää välilyöntejä,
 sinun tulee kirjoittaa se lainausmerkkien tai heittomerkkien sisään:
-~"My Documents"~ tai ~'My Documents'~. 
+"~My Documents~" tai "~My Documents~". 
 
 *PRO TIP:* Painamalla sarkainta (TAB) saat komentorivin täydentämään
 kirjoitustasi. Voit kirjoittaa alun jonkin kansion nimestä ja painaa
