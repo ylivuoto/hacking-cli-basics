@@ -7,6 +7,7 @@ Opitaan:
 - ~ls~ (list), joka antaa listan kansiossa olevista tiedostoista ja kansioista.
 - ~cd~ (change directory), jonka avulla voit siirtyä kansiosta toiseen.
 - ~mkdir~ (make directory), jolla voit luoda uuden kansion.
+- ~echo~ tai ~write~, joilla voit kirjoittaa tekstiä tiedostoon.
 
 Jotta pääset alkuun, sinun tulee siirtyä komentoriville. Avaa
 komentorivi Windowsin valikosta etsimällä sovellus, nimeltä ~Windows PowerShell~. 
@@ -26,12 +27,20 @@ työskentelykansiossasi on.
 ls
 #+end_src
 
-** Siirry "Tiedostot" -kansioon (Documents)
+** Siirry "Tiedostot" -kansioon (PowerShellissä My Documents)
 Voit siirtyä käyttämällä ~cd~ komentoa. Jos esimerkiksi olisin ~Users~
 -kansiossa, voisin siirtyä ~O-P~ -kansioon komennolla ~cd O-P~.
 
+Huomaa, että siirtyessäsi kansioon, jonka nimi sisältää välilyöntejä,
+sinun tulee kirjoittaa se lainausmerkkien tai heittomerkkien sisään:
+~"My Documents"~ tai ~'My Documents'~. 
+
+*PRO TIP:* Painamalla sarkainta (TAB) saat komentorivin täydentämään
+kirjoitustasi. Voit kirjoittaa alun jonkin kansion nimestä ja painaa
+TAB, jonka jälkeen komentorivi täydentää nimen tai antaa vaihtoehdot
+näkyviin.
 #+begin_src
-cd tähän-tiedoston-nimi
+cd tähän-kansion-nimi
 #+end_src
 
 Jos haluat siirtyä yhden kansion takaisinpäin, voit laittaa kaksi
@@ -42,11 +51,23 @@ cd ..
 
 ** Luo kansio "Tiedostot" -kansion sisälle
 Voit nyt vielä tarkistaa, että olethan varmasti ~Tiedostot~ -kansiossa
-(englanniksi se on Windowsissa Documents).
+(englanniksi se on Windowsissa My Documents).
 
 Sitten voit luoda kansion antamalla seuraavan komennon:
 #+begin_src
 mkdir hacked
+#+end_src
+
+** Luo tiedosto "hacked" -kansioon
+Siirry ~hacked~ -kansioon. Käytä alla olevaa komentoa tiedoston luomiseen. 
+
+:warning:
+*OLE HUOLELLINEN! JOS KIRJOITAT ~>>~ -KOMENNON SIJASTA ~>~, TIEDOSTO
+YLIKIRJOITETAAN! TAI JOS KIRJOITAT VAHINGOSSA VÄÄRÄN TIEDOSTON NIMEN,
+TEKSTI MENEE VÄÄRÄÄN TIEDOSTOON.*
+
+#+begin_src
+echo "Tämä tiedosto täysin hacked" >> hack.txt
 #+end_src
 
 * Tehtävä suoritettu!
