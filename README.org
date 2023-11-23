@@ -1,5 +1,5 @@
 * Tervetuloa komentoriviharjoitukseen!
-Tässä harjoituksessa opetellaan muutama perus komento, joita
+Tässä harjoituksessa opetellaan muutama peruskomento, joita
 käyttämällä pääsee jo alkuun komentorivin käytössä. 
 
 Opitaan: 
@@ -7,6 +7,11 @@ Opitaan:
 - ~ls~ (list), joka antaa listan kansiossa olevista tiedostoista ja kansioista.
 - ~cd~ (change directory), jonka avulla voit siirtyä kansiosta toiseen.
 - ~mkdir~ (make directory), jolla voit luoda uuden kansion.
+
+Jotta pääset alkuun, sinun tulee siirtyä komentoriville. Avaa
+komentorivi Windowsin valikosta etsimällä sovellus, nimeltä ~Windows
+PowerShell~. Voit kirjoittaa tuon Windowsin hakuun ja avata
+sovelluksen sieltä.
 
 ** Tarkasta työskentelykansio
 Seuraava komento kertoo mikä on työskentelykansiosi. Minulla se on
