@@ -61,10 +61,12 @@ mkdir hacked
 ** Luo tiedosto "hacked" -kansioon
 Siirry ~hacked~ -kansioon. Käytä alla olevaa komentoa tiedoston luomiseen. 
 
+#+begin_src markdown
 :warning:
-*OLE HUOLELLINEN! JOS KIRJOITAT ~>>~ -KOMENNON SIJASTA ~>~, TIEDOSTO
-YLIKIRJOITETAAN! TAI JOS KIRJOITAT VAHINGOSSA VÄÄRÄN TIEDOSTON NIMEN,
-TEKSTI MENEE VÄÄRÄÄN TIEDOSTOON.*
+#+end_src
+**OLE HUOLELLINEN!** Jos kirjoitat ~>>~ -komennon sijasta ~>~, tiedosto
+ylikirjoitetaan! tai jos kirjoitat vahingossa väärän tiedoston nimen,
+teksti menee väärään tiedostoon.
 
 #+begin_src
 echo "Tämä tiedosto täysin hacked" >> hack.txt
